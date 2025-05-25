@@ -8,7 +8,7 @@ import os
 os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from marina64 import main
+    from bs64 import main
     main()
 elif bit == '32bit':
     from marina32 import main
